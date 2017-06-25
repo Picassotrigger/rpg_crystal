@@ -1,0 +1,81 @@
+body {
+    font-family: Lato;
+    font-size: 20px;
+    background-color: gold;
+
+}
+h1 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom:40px;
+    color: chocolate;
+}
+.container {
+    width: 760px;
+    margin: auto;
+}
+div.personButton {
+    position: relative;
+}
+img.personImage {
+    height: 180px;
+    margin: auto;
+    position: absolute;
+}
+img#person3 {
+    top: 0px;
+    left: 23px;
+}
+h3.scoreLabel {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+div.score {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+h2.playBoardLabel {
+    font-size: 1.7em;
+    font-weight: 300;
+    text-align: center;
+}
+div.playBoard {
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+}
+div.left-cell {
+    border-right: 1px solid white;
+}
+footer {
+    background-color: darkgray;
+    height: 80px;
+    width: auto;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .container{
+        width: 400px;
+        margin: auto;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    img.personImage {
+        height: 100px;
+        float: left;
+        position: static;
+        margin-right: 5px;
+    }
+    div.left-cell {
+        border: none;
+    }
+}
